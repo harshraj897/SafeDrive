@@ -48,6 +48,6 @@ app.get("/api/test-db", async (req, res) => {
   }
 });
 // Start server
-app.listen(PORT, () => {
+app.listen(PORT, "0.0.0.0",() => {
   console.log(`SafeDrive server running on port ${PORT}`);
 });
