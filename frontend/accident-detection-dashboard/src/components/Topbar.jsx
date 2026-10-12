@@ -22,8 +22,8 @@ function Topbar() {
         <div className="profile">
           <UserCircle size={36} />
           <div>
-            <strong>Administrator</strong>
-            <span>System Admin</span>
+            <strong>User123</strong>
+            <span></span>
           </div>
         </div>
       </div>

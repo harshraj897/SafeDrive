@@ -1,8 +1,8 @@
-const API_URL = "http://localhost:5000/api/vechiles";
+import API_BASE_URL from "./apiConfig";
 
 //get all vechiles
 export async function fetchVehicles() {
-    const response = await fetch(API_URL);
+    const response = await fetch(`${API_BASE_URL}/api/vehicles`);
 
     if(!response.ok){
         throw new Error("Failed to fetch vehicles");
